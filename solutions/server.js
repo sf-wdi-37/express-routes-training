@@ -7,6 +7,7 @@ var app = express();
 
 
 // MIDDLEWARE
+// serve the public folder as if at /
 app.use(express.static('public'));
 
 var bodyParser = require('body-parser');
