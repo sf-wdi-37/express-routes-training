@@ -6,7 +6,7 @@
 
 ### Create a Node Project
 
-**Refer to the class notes!** 
+**Refer to the class notes!**
 
 1. Fork and clone this directory, then create a new directory inside it.  
 
@@ -14,12 +14,12 @@
 
 3. Inside the directory you created, initialize a node project. Remember to use `server.js` as the main starting point for your app.
 
-If you're really stuck on this step, compare your _directory structure_ to what is inside the `setup-check` directory. 
+If you're really stuck on this step, compare your _directory structure_ to what is inside the `setup-check` directory.
 
 
 ### Root Route
 
-**Refer to the class notes!** 
+**Refer to the class notes!**
 
 Create a root route that responds by sending an `index.html` file from a new `views` directory.  
 
@@ -62,6 +62,6 @@ If you're really stuck on this step, compare all your _files and code_ to what i
 
 5. Create a new client-side JavaScript file called `gallery.js`, link it to your `art-gallery.html`, and write an AJAX call to submit the new artwork form to the correct route with its data.  If the request is successful, log the response to the console in the browser.
 
-6. Update the client-side JavaScript so that once an artwork is added successfully on the server, the artwork information is displayed on the page. Write a function that templates the data from an artwork into an HTML string that jQuery can add to the page.
+6. Stretch Challenge: Update the client-side JavaScript so that once an artwork is added successfully on the server, the artwork information is displayed on the page. Write a function that templates the data from an artwork into an HTML string that jQuery can add to the page.
 
 <!-- 1. Write a route that allows you to change an artwork in the list of artworks. The route should take in the old title and all new information for the artwork. **Hint**: Use the HTML methods `PATCH` or `PUT`. -->
