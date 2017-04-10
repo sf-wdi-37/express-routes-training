@@ -4,9 +4,22 @@
 
 # Training: Express Routing Practice
 
+### Create a Node Project
+
+**Refer to the class notes!** 
+
+1. Fork and clone this directory, then create a new directory inside it.  
+
+2. Move into the new directory you created, and make a `server.js` file.
+
+3. Inside the directory you created, initialize a node project. Remember to use `server.js` as the main starting point for your app.
+
+If you're really stuck on this step, compare your _directory structure_ to what is inside the `setup-check` directory. 
+
+
 ### Root Route
 
-Create a root route that responds by sending an `index.html` file from the `views` directory.
+Create a root route that responds by sending an `index.html` file from the `views` directory.  **Refer to the class notes!** If you're really stuck on this step, compare your code to what is inside the `setup-check` directory.
 
 ### The Number Guessing Game
 
