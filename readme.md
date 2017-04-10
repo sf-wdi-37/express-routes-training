@@ -19,7 +19,11 @@ If you're really stuck on this step, compare your _directory structure_ to what 
 
 ### Root Route
 
-Create a root route that responds by sending an `index.html` file from the `views` directory.  **Refer to the class notes!** If you're really stuck on this step, compare your code to what is inside the `setup-check` directory.
+**Refer to the class notes!** 
+
+Create a root route that responds by sending an `index.html` file from a new `views` directory.  
+
+If you're really stuck on this step, compare all your _files and code_ to what is inside the `setup-check` directory.
 
 ### The Number Guessing Game
 
