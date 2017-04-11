@@ -14,12 +14,12 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // ROUTES
-// Root View Route
+// Root HTML View Route
 app.get('/', function (request, response) {
   response.sendFile('views/index.html' , { root : __dirname});
 });
 
-// Gallery View Route
+// Gallery HTML View Route
 app.get('/art-gallery', function (request, response) {
   response.sendFile('views/art-gallery.html' , { root : __dirname});
 });
@@ -63,6 +63,7 @@ app.post('/artworks', function(request, response){
   artworks.push(newArtwork);
   response.json(artworks);
 });
+
 
 
 // SERVER START
